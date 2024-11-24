@@ -16,7 +16,7 @@ export default function Home() {
           <li className="mb-2">
            M.D.L.U.Kavishka
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Junior Software Developer.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
