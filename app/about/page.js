@@ -29,7 +29,7 @@ export default function HomePage() {
       <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-5xl font-extrabold mb-4">Welcome to MyApp</h1>
-          <p className="text-xl mb-8">Discover amazing features and transform your digital experience</p>
+          <p className="text-xl mb-8">amazing features and transform your digital experience</p>
           <div className="space-x-4">
             <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
               Get Started
