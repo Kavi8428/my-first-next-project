@@ -25,6 +25,31 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
+      <nav className="bg-white shadow-md">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center">
+              <a href="/" className="text-2xl font-bold text-gray-800">
+                MyApp
+              </a>
+            </div>
+            <div className="flex space-x-4">
+              <a href="#" className="text-gray-600 hover:text-gray-900">Home</a>
+              <a href="#" className="text-gray-600 hover:text-gray-900">Features</a>
+              <a href="#" className="text-gray-600 hover:text-gray-900">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <footer className="bg-gray-800 text-white py-8 mt-auto">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <p>&copy; 2024 MyApp. All rights reserved.</p>
+          <div className="flex justify-center space-x-4 mt-4">
+            <a href="#" className="hover:text-gray-300">Privacy Policy</a>
+            <a href="#" className="hover:text-gray-300">Terms of Service</a>
+          </div>
+        </div>
+      </footer>
     </html>
   );
 }
